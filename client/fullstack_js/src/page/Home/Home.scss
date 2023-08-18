@@ -1,0 +1,24 @@
+.home-wrapper.grid {
+   --col-gutter-y: 4px;
+   --col-sm-gutter-y: 8px;
+   --col-md-gutter-y: 12px;
+   --col-lg-gutter-y: 16px;
+   --col-xl-gutter-y: 20px;
+   --col-xxl-gutter-y: 24px;
+   padding: 0 30px;
+
+   .card {
+      background: rgba(255, 255, 255, 0.7);
+      flex: 1;
+   }
+
+   .card-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+   }
+
+   .btn.btn-primary {
+      font-size: 1.8rem;
+      background: linear-gradient(to right, rgb(0, 4, 40), rgb(0, 78, 146));
+   }
+}

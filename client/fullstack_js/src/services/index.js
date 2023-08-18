@@ -1,0 +1,12 @@
+export { default as allVideoService } from './allVideoService';
+export { default as createVideoService } from './createVideoService';
+export { default as showVideoService } from './showVideoService';
+export { default as meStoredVideosService } from './meStoredVideosService';
+export { default as meTrashVideosService } from './meTrashVideosService';
+export { default as editVideoService } from './editVideoService';
+export { default as updateVideoService } from './updateVideoService';
+export { default as deleteVideoService } from './deleteVideoService';
+export { default as meStoredVideosFormActionsService } from './meStoredVideosFormActionsService';
+export { default as restoreVideoService } from './restoreVideoService';
+export { default as permanentlyDestroyVideoService } from './permanentlyDestroyVideoService';
+export { default as meTrashVideosFormActionsService } from './meTrashVideosFormActionsService';

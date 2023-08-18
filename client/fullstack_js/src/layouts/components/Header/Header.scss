@@ -1,0 +1,57 @@
+.header-wrapper {
+   .grid {
+      display: flex;
+   }
+
+   .navbar {
+      background: linear-gradient(to right, rgb(0, 4, 40), rgb(0, 78, 146));
+      .navbar-brand {
+         height: 60px;
+         width: 136px;
+         margin-left: -26px;
+         font-size: 2.2rem;
+         color: white;
+         mix-blend-mode: lighten;
+
+         &:hover {
+            color: white;
+         }
+      }
+   }
+
+   .navbar-toggler-icon {
+      width: 2.8rem;
+      height: 2.8rem;
+   }
+
+   .navbar-nav .nav-link.show {
+      color: white;
+   }
+
+   .dropdown-toggle {
+      font-weight: bold;
+      font-size: 1.6rem;
+      color: white;
+
+      &:hover {
+         color: white;
+      }
+   }
+
+   .dropdown-menu {
+      padding: 6px 16px;
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+   }
+
+   .dropdown-item {
+      font-size: 1.6rem;
+   }
+
+   .navbar-toggler {
+      background: rgb(255, 255, 255, 0.5);
+
+      i {
+         font-size: 2.5rem;
+      }
+   }
+}

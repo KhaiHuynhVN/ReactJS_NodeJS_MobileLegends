@@ -1,0 +1,15 @@
+{
+   "plugins": [
+      [
+         "module-resolver",
+         {
+            "alias": {
+               "~": "./src"
+            }
+         }
+      ]
+   ]
+}
+
+// Nó sẽ giúp chuyển đổi cú pháp, như sau đây:
+// import App from "~/App"

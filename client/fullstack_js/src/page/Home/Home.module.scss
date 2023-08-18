@@ -1,0 +1,42 @@
+.img-link {
+   height: 200px;
+
+   img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+   }
+}
+
+.card-body-description {
+   display: -webkit-box;
+   overflow: hidden;
+   -webkit-line-clamp: 6;
+   -webkit-box-orient: vertical;
+   text-overflow: ellipsis;
+   font-size: 1.4rem;
+}
+
+.logo-background {
+   position: fixed;
+   top: 60px;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   object-fit: contain;
+   user-select: none;
+   z-index: -1;
+}
+
+.pointer-none {
+   user-select: none;
+   pointer-events: none;
+}
+
+.wrapper .fill-bg-color {
+   color: transparent;
+
+   &:hover {
+      color: transparent;
+   }
+}

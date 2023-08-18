@@ -1,0 +1,43 @@
+.pagination {
+   display: flex;
+   justify-content: center;
+   color: blue;
+   transition: 0.3s;
+
+   ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+   }
+
+   li {
+      list-style: none;
+   }
+
+   .nav-item {
+      display: block;
+      padding: 4px;
+      min-width: 34px;
+      text-align: center;
+      border: 1px solid rgba(86, 86, 86, 0.3);
+      user-select: none;
+      cursor: pointer;
+   }
+
+   .nav-item[disabled] {
+      pointer-events: none;
+      color: #212529bf;
+      background: #e9ecef;
+      border-color: #dee2e6;
+   }
+
+   .nav-item.active {
+      color: white;
+      background: #0d6efd;
+      border-color: #0d6efd;
+   }
+
+   .nav-item.disabled {
+      pointer-events: none;
+   }
+}
