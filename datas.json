@@ -1,0 +1,1393 @@
+[{
+  "_id": {
+    "$oid": "64c0e2111d607cf552a415d7"
+  },
+  "name": "MLBB | LANCELOT",
+  "description": "MLBB | LANCELOT SÙNG BÁI: SÁT THỦ DAMAGE TO BẬC NHẤT MÙA 29! | Tốp Mỡ",
+  "img": "https://img.youtube.com/vi/qQBHJg4TwuM/hqdefault.jpg",
+  "videoId": "qQBHJg4TwuM",
+  "createdAt": {
+    "$date": "2023-07-26T09:06:25.405Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-15T05:17:04.786Z"
+  },
+  "slug": "mlbb-or-lancelot-64c0e2111d607cf552a415d7",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c22026f0f66e356a2d1163"
+  },
+  "name": "b",
+  "description": "b",
+  "img": "https://img.youtube.com/vi/b/hqdefault.jpg",
+  "videoId": "b",
+  "createdAt": {
+    "$date": "2023-07-27T07:43:34.447Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T05:59:50.879Z"
+  },
+  "slug": "b",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-02T02:51:34.879Z"
+  },
+  "deleted": true,
+  "deletedAt": {
+    "$date": "2023-08-17T05:59:50.878Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c22759b3681fe5487f5c10"
+  },
+  "name": "test",
+  "description": "test",
+  "img": "https://img.youtube.com/vi/test/hqdefault.jpg",
+  "videoId": "test",
+  "createdAt": {
+    "$date": "2023-07-27T08:14:17.674Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-27T08:14:44.833Z"
+  },
+  "slug": "test",
+  "__v": 0,
+  "deleted": true,
+  "deletedAt": {
+    "$date": "2023-07-27T08:14:35.108Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c3405294f9b9872eaa2ccd"
+  },
+  "name": "gs",
+  "description": "g",
+  "img": "https://img.youtube.com/vi/g/hqdefault.jpg",
+  "videoId": "g",
+  "createdAt": {
+    "$date": "2023-07-28T04:13:06.330Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T03:25:06.435Z"
+  },
+  "slug": "gs-64c3405294f9b9872eaa2ccd",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-02T03:24:53.363Z"
+  },
+  "deleted": true,
+  "deletedAt": {
+    "$date": "2023-08-02T03:25:06.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c781b80cb6f63149d10cf6"
+  },
+  "name": "aasdas",
+  "description": "adasdadad",
+  "img": "https://img.youtube.com/vi/aasdadad/hqdefault.jpg",
+  "videoId": "aasdadad",
+  "createdAt": {
+    "$date": "2023-07-31T09:41:12.021Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T05:34:30.442Z"
+  },
+  "slug": "aasdas",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-02T05:34:13.881Z"
+  },
+  "deleted": true,
+  "deletedAt": {
+    "$date": "2023-08-02T05:34:30.441Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c78335bacbf4abcc0a4f2f"
+  },
+  "name": "test1",
+  "description": "test1",
+  "img": "https://img.youtube.com/vi/test1/hqdefault.jpg",
+  "videoId": "test1",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-07-31T09:47:33.635Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-01T04:45:00.945Z"
+  },
+  "slug": "test1",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-07-31T09:49:18.861Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c78341bacbf4abcc0a4f35"
+  },
+  "name": "test2",
+  "description": "test2",
+  "img": "https://img.youtube.com/vi/test2/hqdefault.jpg",
+  "videoId": "test2",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-07-31T09:47:45.965Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-01T04:45:00.945Z"
+  },
+  "slug": "test2",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-07-31T09:49:18.861Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c7834bbacbf4abcc0a4f3b"
+  },
+  "name": "test3",
+  "description": "test3",
+  "img": "https://img.youtube.com/vi/test3/hqdefault.jpg",
+  "videoId": "test3",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-07-31T09:47:55.719Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-01T04:45:00.945Z"
+  },
+  "slug": "test3",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-07-31T09:49:18.861Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c88b85251c1cf506cf2e33"
+  },
+  "name": "q",
+  "description": "q",
+  "img": "https://img.youtube.com/vi/q/hqdefault.jpg",
+  "videoId": "q",
+  "createdAt": {
+    "$date": "2023-08-01T04:35:17.420Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-01T05:34:55.832Z"
+  },
+  "slug": "q",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-01T05:34:28.486Z"
+  },
+  "deleted": true,
+  "deletedAt": {
+    "$date": "2023-08-01T05:34:40.703Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c89420e0f897bbbdb89323"
+  },
+  "name": "test xóa vv",
+  "description": "test xóa vv",
+  "img": "https://img.youtube.com/vi/test xóa vv/hqdefault.jpg",
+  "videoId": "test xóa vv",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-01T05:12:00.536Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-01T05:12:09.196Z"
+  },
+  "slug": "test-xoa-vv",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-01T05:12:04.477Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c89493e8b1396ef99e5c21"
+  },
+  "name": "test xóa vv 2",
+  "description": "test xóa vv 2",
+  "img": "https://img.youtube.com/vi/test xóa vv 2/hqdefault.jpg",
+  "videoId": "test xóa vv 2",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-01T05:13:55.131Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-01T05:14:29.242Z"
+  },
+  "slug": "test-xoa-vv-2",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-01T05:14:16.908Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c8990156eba4077dca0f79"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "createdAt": {
+    "$date": "2023-08-01T05:32:49.164Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-01T05:34:55.832Z"
+  },
+  "slug": "a-64c8990156eba4077dca0f79",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-01T05:34:28.486Z"
+  },
+  "deleted": true,
+  "deletedAt": {
+    "$date": "2023-08-01T05:34:40.703Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c8993856eba4077dca0f91"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "createdAt": {
+    "$date": "2023-08-01T05:33:44.674Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-01T05:34:55.832Z"
+  },
+  "slug": "a-64c8993856eba4077dca0f91",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-01T05:34:28.486Z"
+  },
+  "deleted": true,
+  "deletedAt": {
+    "$date": "2023-08-01T05:34:40.703Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c9cc299862f0d725ff0a6d"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-02T03:23:21.241Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T03:23:31.388Z"
+  },
+  "slug": "a-64c9cc299862f0d725ff0a6d",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-02T03:23:31.387Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c9cc2f9862f0d725ff0a73"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-02T03:23:27.128Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T03:23:34.390Z"
+  },
+  "slug": "a-64c9cc2f9862f0d725ff0a73",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-02T03:23:34.389Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c9cc3c9862f0d725ff0a81"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-02T03:23:40.335Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T03:23:43.248Z"
+  },
+  "slug": "a-64c9cc3c9862f0d725ff0a81",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-02T03:23:43.247Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c9ccd99862f0d725ff0aa8"
+  },
+  "name": "MLBB | HANABI BẢO HỘ",
+  "description": "MLBB | HANABI BẢO HỘ: XẠ THỦ MẠNH NHẤT NHÌ RANK VINH QUANG MÙA 29? | Tốp Mỡ\r\n",
+  "img": "https://img.youtube.com/vi/w4dGLyoNgZg/hqdefault.jpg",
+  "videoId": "w4dGLyoNgZg",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-08-02T03:26:17.090Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-15T10:10:18.756Z"
+  },
+  "slug": "mlbb-or-hanabi-bao-ho-64c9ccd99862f0d725ff0aa8",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9cd539862f0d725ff0ab0"
+  },
+  "name": "MLBB | BEATRIX NGƠ NGÁC",
+  "description": "MLBB | EM BÉ-CHÍCH NGƠ NGÁC VÀ ÔNG KHUFRA BẤT ỔN | Tốp Mỡ\r\n",
+  "img": "https://img.youtube.com/vi/d136RDyP3fY/hqdefault.jpg",
+  "videoId": "d136RDyP3fY",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-08-02T03:28:19.806Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T03:36:17.106Z"
+  },
+  "slug": "mlbb-or-beatrix-ngo-ngac-64c9cd539862f0d725ff0ab0",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9cd7d9862f0d725ff0ab6"
+  },
+  "name": "MLBB | GATOTAKA MÙA 29",
+  "description": "MLBB | GATOTAKA MÙA 29: KIM CANG GIÁC NGỘ? 1 NHẢY TEAM BẠN ĐẦU THAI KIẾP MỚI? | Tốp Mỡ\r\n",
+  "img": "https://img.youtube.com/vi/GGgldfewEH4/hqdefault.jpg",
+  "videoId": "GGgldfewEH4",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-08-02T03:29:01.421Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T03:29:01.421Z"
+  },
+  "slug": "mlbb-or-gatotaka-mua-29-64c9cd7d9862f0d725ff0ab6",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9cd9b9862f0d725ff0abc"
+  },
+  "name": "MLBB | BANE MÙA 29",
+  "description": "MLBB | BANE MÙA 29 VÀ LỐI CHƠI DUY NHẤT GÁNH ĐƯỢC TEAM: LẤY ĐỒ ĐÈ NGƯỜI? | Tốp Mỡ\r\n",
+  "img": "https://img.youtube.com/vi/UcBjqsT07m0/hqdefault.jpg",
+  "videoId": "UcBjqsT07m0",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-08-02T03:29:31.862Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T03:29:31.862Z"
+  },
+  "slug": "mlbb-or-bane-mua-29-64c9cd9b9862f0d725ff0abc",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9ce4e2b035d14e332633a"
+  },
+  "name": "xóa tôi",
+  "description": "xóa tôi",
+  "img": "https://img.youtube.com/vi/xóa tôi/hqdefault.jpg",
+  "videoId": "xóa tôi",
+  "createdAt": {
+    "$date": "2023-08-02T03:32:30.006Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T03:33:17.439Z"
+  },
+  "slug": "xoa-toi-64c9ce4e2b035d14e332633a",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-02T03:32:59.930Z"
+  },
+  "deleted": true,
+  "deletedAt": {
+    "$date": "2023-08-02T03:33:08.518Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c9ce572b035d14e3326340"
+  },
+  "name": "xóa tôi 2",
+  "description": "xóa tôi 2",
+  "img": "https://img.youtube.com/vi/xóa tôi 2/hqdefault.jpg",
+  "videoId": "xóa tôi 2",
+  "createdAt": {
+    "$date": "2023-08-02T03:32:39.705Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T03:33:17.439Z"
+  },
+  "slug": "xoa-toi-2-64c9ce572b035d14e3326340",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-02T03:32:59.930Z"
+  },
+  "deleted": true,
+  "deletedAt": {
+    "$date": "2023-08-02T03:33:08.518Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64c9cfc027e00d8c94a62345"
+  },
+  "name": "MLBB | TẤU HỀ CÙNG GUSION",
+  "description": "MLBB | TẤU HỀ CÙNG GUSION: SÁT THỦ ĐÃ KHÓ CHƠI LẠI CÒN ÍU NHẤT NHÌ MÙA 29??? | Tốp Mỡ\r\n",
+  "img": "https://img.youtube.com/vi/ip8xq65KrOE/hqdefault.jpg",
+  "videoId": "ip8xq65KrOE",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-08-02T03:38:40.366Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-02T03:38:40.366Z"
+  },
+  "slug": "mlbb-or-tau-he-cung-gusion-64c9cfc027e00d8c94a62345",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cc8abea5ee117b2ee47d41"
+  },
+  "name": "1",
+  "description": "1",
+  "img": "https://img.youtube.com/vi/1/hqdefault.jpg",
+  "videoId": "1",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-04T05:21:02.959Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-04T05:28:09.032Z"
+  },
+  "slug": "1-64cc8abea5ee117b2ee47d41",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-04T05:28:09.027Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c0e07f1d607cf552a415a1"
+  },
+  "name": "MLBB | BARATS MÙA 29",
+  "description": "MLBB | BARATS MÙA 29: NGỌC MỚI ĐÃ TRÂU LẠI CÒN CHÓ! FULL TANK DẬM HÂNBI BẤY NHẦY! | Tốp Mỡ\r\n",
+  "img": "https://img.youtube.com/vi/69ow-NCrsAg/hqdefault.jpg",
+  "videoId": "69ow-NCrsAg",
+  "createdAt": {
+    "$date": "2023-07-26T08:59:43.414Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T08:45:08.511Z"
+  },
+  "slug": "mlbb-or-barats-mua-29",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0e0ec1d607cf552a415a8"
+  },
+  "name": "MLBB | SABER ĐI ĐƯỜNG EXP",
+  "description": "MLBB | ĂN MỖI CON RÙA, MOSKOV BAY LUÔN 1 SAO?? | Tốp Mỡ\r\n",
+  "img": "https://img.youtube.com/vi/j-I99kQDd7E/hqdefault.jpg",
+  "videoId": "j-I99kQDd7E",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-07-26T09:01:32.956Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T03:37:28.540Z"
+  },
+  "slug": "mlbb-or-saber-di-duong-exp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0e1271d607cf552a415b3"
+  },
+  "name": "MLBB | KARRIE",
+  "description": "MLBB | TỐP MỠ CẦM KARRIE, GẶP PHẢI CON TANK MÀ MÌNH GHÉT NHẤT???\r\n",
+  "img": "https://img.youtube.com/vi/jtL5hwMtpL4/hqdefault.jpg",
+  "videoId": "jtL5hwMtpL4",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-07-26T09:02:31.997Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-26T09:03:48.759Z"
+  },
+  "slug": "mlbb-or-karrie",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0e1a51d607cf552a415cc"
+  },
+  "name": "MLBB | CYCLOPS",
+  "description": "MLBB | CYCLOPS ĐỐI ĐẦU HARLEY MÙA 29: LATE GAME TỰ YẾU??? | Tốp Mỡ\r\n",
+  "img": "https://img.youtube.com/vi/3SjDL7JHrUI/hqdefault.jpg",
+  "videoId": "3SjDL7JHrUI",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-07-26T09:04:37.318Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-26T09:04:37.318Z"
+  },
+  "slug": "mlbb-or-cyclops",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0e1c51d607cf552a415d1"
+  },
+  "name": "MLBB | POPOL & KUPA",
+  "description": "MLBB | POPOL & KUPA + SÙNG BÁI: 1 CẮN LÀ HẾT CỨU! | Tốp Mỡ\r\n",
+  "img": "https://img.youtube.com/vi/eKFVlQsfSqI/hqdefault.jpg",
+  "videoId": "eKFVlQsfSqI",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-07-26T09:05:09.214Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-26T09:05:09.214Z"
+  },
+  "slug": "mlbb-or-popol-and-kupa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d5b97a6f88e4c024a84474"
+  },
+  "name": "MLBB | ZILONG THẦN LONG THƯƠNG + SIÊU BUFF",
+  "description": "MLBB | ZILONG THẦN LONG THƯƠNG + SIÊU BUFF: KHÔNG PHẤN CHẤN CHỌC BAXIA PHẢN KÍCH RA BÃ? | Tốp Mỡ\n",
+  "img": "https://img.youtube.com/vi/oPCSLxZQhrI/hqdefault.jpg",
+  "videoId": "oPCSLxZQhrI",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-08-11T04:30:50.878Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-11T04:30:50.878Z"
+  },
+  "slug": "mlbb-or-zilong-than-long-thuong-sieu-buff-64d5b97a6f88e4c024a84474",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d5ba2e6f88e4c024a84478"
+  },
+  "name": "MLBB | EM LESLEY LẠI CÓ SKIN MỚI",
+  "description": "MLBB | EM LESLEY LẠI CÓ SKIN MỚI: ĐẦU GAME ĐỨA NÀO ĐÈ BÀ??? | Tốp Mỡ\n",
+  "img": "https://img.youtube.com/vi/WDir2q2KOAU/hqdefault.jpg",
+  "videoId": "WDir2q2KOAU",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-08-11T04:33:50.699Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-11T04:33:50.699Z"
+  },
+  "slug": "mlbb-or-em-lesley-lai-co-skin-moi-64d5ba2e6f88e4c024a84478",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d5d2b8ab56f0ca78650dbf"
+  },
+  "name": "MLBB | 100% CHÍ MẠNG ĐẾN TỪ NATA MỚI",
+  "description": "MLBB | 100% CHÍ MẠNG ĐẾN TỪ NATA MỚI: SET ĐỒ LATE GAME CHỈ 2 CÀO CÓ 1 MẠNG! Tốp Mỡ\n",
+  "img": "https://img.youtube.com/vi/7EnRr06kjlo/hqdefault.jpg",
+  "videoId": "7EnRr06kjlo",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-08-11T06:18:32.136Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T08:51:32.113Z"
+  },
+  "slug": "mlbb-or-100-chi-mang-den-tu-nata-moi-64d5d2b8ab56f0ca78650dbf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d896b2f12dfc415616c488"
+  },
+  "name": "test 1",
+  "description": "test 1",
+  "img": "https://img.youtube.com/vi/test 1/hqdefault.jpg",
+  "videoId": "test 1",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-13T08:39:14.058Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  },
+  "slug": "test-1-64d896b2f12dfc415616c488",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d897daf12dfc415616c4af"
+  },
+  "name": "test 2",
+  "description": "test 2",
+  "img": "https://img.youtube.com/vi/test 2/hqdefault.jpg",
+  "videoId": "test 2",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-13T08:44:10.352Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  },
+  "slug": "test-2-64d897daf12dfc415616c4af",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d897e9f12dfc415616c4b5"
+  },
+  "name": "test 3",
+  "description": "test 3",
+  "img": "https://img.youtube.com/vi/test 3/hqdefault.jpg",
+  "videoId": "test 3",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-13T08:44:25.386Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  },
+  "slug": "test-3-64d897e9f12dfc415616c4b5",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d897f3f12dfc415616c4bb"
+  },
+  "name": "test 4",
+  "description": "test 4",
+  "img": "https://img.youtube.com/vi/test 4/hqdefault.jpg",
+  "videoId": "test 4",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-13T08:44:35.902Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  },
+  "slug": "test-4-64d897f3f12dfc415616c4bb",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d897fff12dfc415616c4c1"
+  },
+  "name": "test 5",
+  "description": "test 5",
+  "img": "https://img.youtube.com/vi/test 5/hqdefault.jpg",
+  "videoId": "test 5",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-13T08:44:47.652Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  },
+  "slug": "test-5-64d897fff12dfc415616c4c1",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-13T08:47:26.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d898b5f12dfc415616c4f6"
+  },
+  "name": "a",
+  "description": "aa",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-13T08:47:49.602Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T08:48:04.422Z"
+  },
+  "slug": "a-64d898b5f12dfc415616c4f6",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-13T08:48:04.421Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d898edf12dfc415616c50d"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-13T08:48:45.866Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T08:49:06.218Z"
+  },
+  "slug": "a-64d898edf12dfc415616c50d",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-13T08:49:06.218Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d89920f12dfc415616c520"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-13T08:49:36.773Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T08:50:29.117Z"
+  },
+  "slug": "a-64d89920f12dfc415616c520",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-13T08:50:29.116Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d89a64f12dfc415616c55a"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-13T08:55:00.785Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-13T08:55:10.191Z"
+  },
+  "slug": "a-64d89a64f12dfc415616c55a",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-13T08:55:10.190Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d9c9f4f5c2928f275979e5"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-14T06:30:12.368Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T06:30:21.647Z"
+  },
+  "slug": "a-64d9c9f4f5c2928f275979e5",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-14T06:30:21.647Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d9ca68f5c2928f27597a01"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-14T06:32:08.262Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T06:32:18.492Z"
+  },
+  "slug": "a-64d9ca68f5c2928f27597a01",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-14T06:32:18.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d9f553124a623001ac99a7"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-14T09:35:15.746Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T09:37:37.793Z"
+  },
+  "slug": "a-64d9f553124a623001ac99a7",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-14T09:37:37.792Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d9f55a124a623001ac99ad"
+  },
+  "name": "b",
+  "description": "b",
+  "img": "https://img.youtube.com/vi/b/hqdefault.jpg",
+  "videoId": "b",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-14T09:35:22.687Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T09:35:36.047Z"
+  },
+  "slug": "b-64d9f55a124a623001ac99ad",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-14T09:35:36.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d9f570124a623001ac99ba"
+  },
+  "name": "b",
+  "description": "b",
+  "img": "https://img.youtube.com/vi/b/hqdefault.jpg",
+  "videoId": "b",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-14T09:35:44.124Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T09:35:50.619Z"
+  },
+  "slug": "b-64d9f570124a623001ac99ba",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-14T09:35:50.618Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d9f5ff124a623001ac99ce"
+  },
+  "name": "c",
+  "description": "c",
+  "img": "https://img.youtube.com/vi/c/hqdefault.jpg",
+  "videoId": "c",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-14T09:38:07.296Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T09:38:20.021Z"
+  },
+  "slug": "c-64d9f5ff124a623001ac99ce",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-14T09:38:20.020Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d9f8b9124a623001ac9a62"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-14T09:49:45.647Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T09:50:21.297Z"
+  },
+  "slug": "a-64d9f8b9124a623001ac9a62",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-14T09:50:21.296Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d9f8c0124a623001ac9a68"
+  },
+  "name": "b",
+  "description": "b",
+  "img": "https://img.youtube.com/vi/b/hqdefault.jpg",
+  "videoId": "b",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-14T09:49:52.532Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T09:50:03.130Z"
+  },
+  "slug": "b-64d9f8c0124a623001ac9a68",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-14T09:50:03.130Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64d9fa4f124a623001ac9a9a"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-14T09:56:31.580Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-14T10:49:52.093Z"
+  },
+  "slug": "a-64d9fa4f124a623001ac9a9a",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-14T10:49:52.092Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dc95900181d8b39d539808"
+  },
+  "name": "a",
+  "description": "a",
+  "img": "https://img.youtube.com/vi/a/hqdefault.jpg",
+  "videoId": "a",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-16T09:23:28.908Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T06:03:46.776Z"
+  },
+  "slug": "a-64dc95900181d8b39d539808",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-17T06:03:46.774Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dc98d90181d8b39d5398a9"
+  },
+  "name": "c",
+  "description": "c",
+  "img": "https://img.youtube.com/vi/c/hqdefault.jpg",
+  "videoId": "c",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-16T09:37:29.010Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T09:39:11.897Z"
+  },
+  "slug": "c-64dc98d90181d8b39d5398a9",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-16T09:39:11.897Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dc98e60181d8b39d5398b4"
+  },
+  "name": "d",
+  "description": "d",
+  "img": "https://img.youtube.com/vi/d/hqdefault.jpg",
+  "videoId": "d",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-16T09:37:42.157Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T09:38:07.942Z"
+  },
+  "slug": "d-64dc98e60181d8b39d5398b4",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-16T09:38:07.942Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dc98ea0181d8b39d5398bb"
+  },
+  "name": "e",
+  "description": "e",
+  "img": "https://img.youtube.com/vi/e/hqdefault.jpg",
+  "videoId": "e",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-16T09:37:46.010Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T09:40:11.670Z"
+  },
+  "slug": "e-64dc98ea0181d8b39d5398bb",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-16T09:40:11.670Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dc9ad90181d8b39d5399a4"
+  },
+  "name": "e",
+  "description": "e",
+  "img": "https://img.youtube.com/vi/e/hqdefault.jpg",
+  "videoId": "e",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-16T09:46:01.939Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T09:47:06.157Z"
+  },
+  "slug": "e-64dc9ad90181d8b39d5399a4",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-16T09:47:06.157Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dc9ae90181d8b39d5399ab"
+  },
+  "name": "d",
+  "description": "d",
+  "img": "https://img.youtube.com/vi/d/hqdefault.jpg",
+  "videoId": "d",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-16T09:46:17.255Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T09:46:27.341Z"
+  },
+  "slug": "d-64dc9ae90181d8b39d5399ab",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-16T09:46:27.341Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dda560d82794367f59e2fd"
+  },
+  "name": "asdas",
+  "description": "dadada",
+  "img": "https://img.youtube.com/vi/dadadd/hqdefault.jpg",
+  "videoId": "dadadd",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-17T04:43:12.144Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T04:43:19.958Z"
+  },
+  "slug": "asdas-64dda560d82794367f59e2fd",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-17T04:43:19.956Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ddb158d82794367f59e60e"
+  },
+  "name": "b",
+  "description": "b",
+  "img": "https://img.youtube.com/vi/b/hqdefault.jpg",
+  "videoId": "b",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-17T05:34:16.339Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T05:34:40.441Z"
+  },
+  "slug": "b-64ddb158d82794367f59e60e",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-17T05:34:40.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ddb161d82794367f59e615"
+  },
+  "name": "d",
+  "description": "d",
+  "img": "https://img.youtube.com/vi/d/hqdefault.jpg",
+  "videoId": "d",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-17T05:34:25.377Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T05:34:40.441Z"
+  },
+  "slug": "d-64ddb161d82794367f59e615",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-17T05:34:40.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ddb166d82794367f59e61c"
+  },
+  "name": "h",
+  "description": "h",
+  "img": "https://img.youtube.com/vi/h/hqdefault.jpg",
+  "videoId": "h",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-17T05:34:30.324Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T05:34:40.441Z"
+  },
+  "slug": "h-64ddb166d82794367f59e61c",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-17T05:34:40.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ddb16bd82794367f59e623"
+  },
+  "name": "j",
+  "description": "j",
+  "img": "https://img.youtube.com/vi/j/hqdefault.jpg",
+  "videoId": "j",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-17T05:34:35.143Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T06:16:51.832Z"
+  },
+  "slug": "j-64ddb16bd82794367f59e623",
+  "__v": 0,
+  "deletedAt": {
+    "$date": "2023-08-17T05:34:40.440Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64ddb17fd82794367f59e635"
+  },
+  "name": "y",
+  "description": "y",
+  "img": "https://img.youtube.com/vi/y/hqdefault.jpg",
+  "videoId": "y",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-17T05:34:55.632Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T06:53:17.273Z"
+  },
+  "slug": "y-64ddb17fd82794367f59e635",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-17T06:22:09.491Z"
+  },
+  "deletedAt": {
+    "$date": "2023-08-17T06:53:17.272Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ddb8b6ec7fa8d63f3b3b8d"
+  },
+  "name": "MLBB | LẦN ĐẦU CỦA TỐP MỠ Ở MÙA 29",
+  "description": "MLBB | LẦN ĐẦU CỦA TỐP MỠ Ở MÙA 29! ANH EM CÓ CHƯA? 😍 | Tốp Mỡ\n",
+  "img": "https://img.youtube.com/vi/1dWU1n_a0pU/hqdefault.jpg",
+  "videoId": "1dWU1n_a0pU",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-08-17T06:05:42.285Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T06:11:03.968Z"
+  },
+  "slug": "mlbb-or-lan-dau-cua-top-mo-o-mua-29-64ddb8b6ec7fa8d63f3b3b8d",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-17T06:11:03.968Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ddde95dae8f8e46441d940"
+  },
+  "name": "video1",
+  "description": "video1",
+  "img": "https://img.youtube.com/vi/video1/hqdefault.jpg",
+  "videoId": "video1",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-17T08:47:17.258Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T08:52:39.509Z"
+  },
+  "slug": "video1-64ddde95dae8f8e46441d940",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-17T08:51:19.496Z"
+  },
+  "deletedAt": {
+    "$date": "2023-08-17T08:52:23.383Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64dddea0dae8f8e46441d947"
+  },
+  "name": "video2",
+  "description": "video2",
+  "img": "https://img.youtube.com/vi/video2/hqdefault.jpg",
+  "videoId": "video2",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-17T08:47:28.713Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T08:52:39.509Z"
+  },
+  "slug": "video2-64dddea0dae8f8e46441d947",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-17T08:52:15.875Z"
+  },
+  "deletedAt": {
+    "$date": "2023-08-17T08:52:23.383Z"
+  },
+  "permanentlyDestroy": true
+},
+{
+  "_id": {
+    "$oid": "64dddeacdae8f8e46441d94e"
+  },
+  "name": "video3",
+  "description": "video3",
+  "img": "https://img.youtube.com/vi/video3/hqdefault.jpg",
+  "videoId": "video3",
+  "deleted": true,
+  "createdAt": {
+    "$date": "2023-08-17T08:47:40.978Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-17T08:52:39.509Z"
+  },
+  "slug": "video3-64dddeacdae8f8e46441d94e",
+  "__v": 0,
+  "restoreAt": {
+    "$date": "2023-08-17T08:51:19.496Z"
+  },
+  "deletedAt": {
+    "$date": "2023-08-17T08:52:23.383Z"
+  },
+  "permanentlyDestroy": true
+}]
