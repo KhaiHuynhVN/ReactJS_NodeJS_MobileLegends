@@ -12,15 +12,15 @@ import './fontawesomeIcons/css/all.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   // <React.StrictMode>
+   <React.StrictMode>
    <Provider store={store}>
       <GridSystem>
          <GlobalStyles>
             <App />
          </GlobalStyles>
       </GridSystem>
-   </Provider>,
-   // </React.StrictMode>,
+   </Provider>
+   </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -51,26 +51,27 @@
          integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
          crossorigin="anonymous"
       ></script>
+
+      <script src="%PUBLIC_URL%/js/sticky-polyfill.js"></script>
+      <script src="%PUBLIC_URL%/js/clamps-polyfill.js"></script>
+      <script>
+         // Clamp text library
+         const clampEls = document.querySelectorAll('.clamp-text');
+         clampEls.forEach((el) => {
+            const classList = [...el.classList];
+            const filter = classList.find((cl) => cl.includes('clpt-'));
+            if (!filter) return console.warn('Chưa thêm class clpt-{number}');
+
+            const lineClampNumber = filter.replace('clpt-', '');
+            console.log(lineClampNumber);
+
+            $clamp(el, { clamp: lineClampNumber, useNativeClamp: false });
+         });
+         //$clamp(clampEls, { clamp: 10, useNativeClamp: false, animate: true });
+
+         // Sticky library
+         const stickyEl = document.querySelectorAll('.psn-sticky');
+         Stickyfill.add(stickyEl);
+      </script>
    </body>
-   <!-- <script src="./js/sticky-polyfill.js"></script>
-   <script src="./js/clamps-polyfill.js"></script>
-   <script>
-      // Clamp text library
-      const clampEls = document.querySelectorAll('.clamp-text');
-      clampEls.forEach((el) => {
-         const classList = [...el.classList];
-         const filter = classList.find((cl) => cl.includes('clpt-'));
-         if (!filter) return console.warn('Chưa thêm class clpt-{number}');
-
-         const lineClampNumber = filter.replace('clpt-', '');
-         console.log(lineClampNumber);
-
-         $clamp(el, { clamp: lineClampNumber, useNativeClamp: false });
-      });
-      //$clamp(clampEls, { clamp: 10, useNativeClamp: false, animate: true });
-
-      // Sticky library
-      const stickyEl = document.querySelectorAll('.psn-sticky');
-      Stickyfill.add(stickyEl);
-   </script> -->
 </html>

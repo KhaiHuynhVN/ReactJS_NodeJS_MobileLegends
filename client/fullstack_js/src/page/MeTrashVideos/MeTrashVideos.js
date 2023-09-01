@@ -379,7 +379,7 @@ function MeTrashVideos() {
                            )}
                         </div>
                      </th>
-                     <th scope="col">
+                     <th style={{ minWidth: '81px' }} scope="col">
                         <div className={cx('d-flex align-items-center', 'table-title')}>
                            Mô tả &nbsp;
                            <i

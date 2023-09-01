@@ -71,14 +71,9 @@ function Header() {
                         </div>
                         <ul className="dropdown-menu">
                            <li>
-                              <Link className="dropdown-item" to="/search">
-                                 Tìm kiếm
-                              </Link>
-                           </li>
-                           <li>
                               <Link
                                  className="dropdown-item"
-                                 to="/create-video"
+                                 to={configRoutes.createVideo}
                                  onClick={() => navigate('/')}
                               >
                                  Đăng video
@@ -94,19 +89,6 @@ function Header() {
                                  onClick={() => navigate('/')}
                               >
                                  Video của tôi
-                              </Link>
-                           </li>
-                           <li>
-                              <Link className="dropdown-item" to="/me/stored/news">
-                                 Bài viết của tôi
-                              </Link>
-                           </li>
-                           <li>
-                              <hr className="dropdown-divider" />
-                           </li>
-                           <li>
-                              <Link className="dropdown-item" to="/">
-                                 Đăng xuất
                               </Link>
                            </li>
                         </ul>

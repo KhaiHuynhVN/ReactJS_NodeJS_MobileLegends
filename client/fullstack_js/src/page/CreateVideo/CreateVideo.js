@@ -1,4 +1,4 @@
-// import classNames from 'classnames/bind';
+import classNames from 'classnames/bind';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
@@ -9,10 +9,10 @@ import createVideoSlice from './createVideoSlice';
 import headerSlice from '../../layouts/components/Header/headerSlice';
 import configRoutes from '~/config';
 
-// import styles from './CreateVideo.module.scss';
+import styles from './CreateVideo.module.scss';
 import './CreateVideo.scss';
 
-// const cx = classNames.bind(styles);
+const cx = classNames.bind(styles);
 
 function CreateVideo() {
    const navigate = useNavigate();
@@ -54,8 +54,8 @@ function CreateVideo() {
    };
 
    return (
-      <div className="create-video-wrapper">
-         <div className="mt-4 grid wide">
+      <div className={cx("create-video-wrapper", 'wrapper')}>
+         <div className="mt-4 grid">
             <form onSubmit={handleSubmitForm}>
                <h1>Đăng video</h1>
                <div className="mb-3">
