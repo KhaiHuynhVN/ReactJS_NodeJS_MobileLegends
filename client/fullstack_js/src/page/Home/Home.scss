@@ -21,4 +21,13 @@
       font-size: 1.8rem;
       background: linear-gradient(to right, rgb(0, 4, 40), rgb(0, 78, 146));
    }
+
+   .spinner-grow {
+      width: 4rem;
+      height: 4rem;
+
+      & + .spinner-grow {
+         margin-left: 5px;
+      }
+   }
 }

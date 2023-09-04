@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import classNames from 'classnames/bind';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
@@ -20,17 +20,35 @@ function Home() {
    const dispatch = useDispatch();
 
    const datas = useSelector(selector.datas);
+   const hasMore = useSelector(selector.hasMore);
+   const startIndex = useSelector(selector.startIndex);
+   const perPage = useSelector(selector.perPage);
+   const datasPending = useSelector(selector.datasPending);
+   const loadingMore = useSelector(selector.loadingMore);
+
+   const wrapperRef = useRef();
+
+   let lastScrollTop = 0;
 
    useEffect(() => {
       const getData = async () => {
-         const res = await allVideoService();
+         const res = await allVideoService(0, perPage);
          dispatch(homeSlice.actions.setDatas(res));
+         dispatch(homeSlice.actions.setStartIndex(res.length));
       };
       getData();
 
-      document.documentElement.scrollIntoView({ behavior: 'auto' });
+      window.document.documentElement.scrollIntoView({ behavior: 'auto' });
       dispatch(showVideoSlice.actions.setShowBackBtn({ enable: false }));
    }, []);
+
+   useEffect(() => {
+      window.document.addEventListener('scroll', handleLoadMore);
+
+      return () => {
+         window.document.removeEventListener('scroll', handleLoadMore);
+      };
+   });
 
    const emptyEls = () => {
       const quantity = 12;
@@ -59,9 +77,41 @@ function Home() {
       ));
    };
 
+   const handleLoadMore = async () => {
+      const endPoint = wrapperRef.current.offsetTop + wrapperRef.current.offsetHeight;
+      const startPoint = document.documentElement.scrollTop + window.innerHeight;
+
+      const condition = startPoint - 100 > endPoint;
+
+      var st = window.scrollY || document.documentElement.scrollTop;
+      if (st > lastScrollTop) {
+         if (condition) {
+            if (datasPending || !hasMore) return;
+
+            dispatch(homeSlice.actions.setLoadingMore(true));
+            dispatch(homeSlice.actions.setDatasPending(true));
+            const res = await allVideoService(startIndex, perPage);
+
+            if (res.length) {
+               dispatch(homeSlice.actions.setDatas([...datas, ...res]));
+               dispatch(homeSlice.actions.setStartIndex(datas.length + res.length));
+            } else {
+               dispatch(homeSlice.actions.setHasMore(false));
+            }
+            dispatch(homeSlice.actions.setDatasPending(false));
+            dispatch(homeSlice.actions.setLoadingMore(false));
+         }
+      } else {
+         if (!condition) {
+            dispatch(homeSlice.actions.setHasMore(true));
+         }
+      }
+      lastScrollTop = st;
+   };
+
    return (
       <>
-         <div className={cx('home-wrapper', 'wrapper', 'grid mt-4')}>
+         <div ref={wrapperRef} className={cx('home-wrapper', 'wrapper', 'grid mt-4')}>
             <h1
                style={{
                   textAlign: 'center',
@@ -99,6 +149,52 @@ function Home() {
                ))}
                {!datas?.length && emptyEls()}
             </div>
+            {loadingMore && (
+               <div className={cx('spiner-container')}>
+                  <div
+                     style={{ animationDelay: '0.1s' }}
+                     className="spinner-grow text-primary"
+                     role="status"
+                  >
+                     <span className="visually-hidden">Loading...</span>
+                  </div>
+                  <div
+                     style={{ animationDelay: '0.2s' }}
+                     className="spinner-grow text-secondary"
+                     role="status"
+                  >
+                     <span className="visually-hidden">Loading...</span>
+                  </div>
+                  <div
+                     style={{ animationDelay: '0.3s' }}
+                     className="spinner-grow text-success"
+                     role="status"
+                  >
+                     <span className="visually-hidden">Loading...</span>
+                  </div>
+                  <div
+                     style={{ animationDelay: '0.4s' }}
+                     className="spinner-grow text-danger"
+                     role="status"
+                  >
+                     <span className="visually-hidden">Loading...</span>
+                  </div>
+                  <div
+                     style={{ animationDelay: '0.5s' }}
+                     className="spinner-grow text-warning"
+                     role="status"
+                  >
+                     <span className="visually-hidden">Loading...</span>
+                  </div>
+                  <div
+                     style={{ animationDelay: '0.6s' }}
+                     className="spinner-grow text-info"
+                     role="status"
+                  >
+                     <span className="visually-hidden">Loading...</span>
+                  </div>
+               </div>
+            )}
          </div>
          <Image alt="logo-background" className={cx('logo-background')} src={images.background} />
       </>

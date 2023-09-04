@@ -63,7 +63,7 @@ function Header() {
                            aria-expanded="false"
                         >
                            <Image
-                              src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.6435-1/190193585_893320487918652_1944575018289881450_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=GpOsG7MhFKwAX-5gv1N&_nc_oc=AQmqSaS2PEnEIgEVEos66Ok0MaR9JFSywECK3f6rHHDUuL4fXkgeiRLv2p9OSKPtCc0&_nc_ht=scontent.fsgn5-5.fna&oh=00_AfAczF5X_VOimhJx3A9cvjpTEPmvyFgVEGb3WcypueSL4g&oe=64E04605"
+                              src={images.avatar}
                               alt=""
                               className={cx('user-avatar')}
                            />
