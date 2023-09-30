@@ -83,7 +83,8 @@ function Home() {
 
       const condition = startPoint - 100 > endPoint;
 
-      var st = window.scrollY || document.documentElement.scrollTop;
+      let st = window.scrollY || document.documentElement.scrollTop;
+
       if (st > lastScrollTop) {
          if (condition) {
             if (datasPending || !hasMore) return;
@@ -101,7 +102,7 @@ function Home() {
             dispatch(homeSlice.actions.setDatasPending(false));
             dispatch(homeSlice.actions.setLoadingMore(false));
          }
-      } else {
+      } else if (st < lastScrollTop) {
          if (!condition) {
             dispatch(homeSlice.actions.setHasMore(true));
          }
